@@ -1,0 +1,333 @@
+{
+  "profile": {
+    "name": "Suhaas Srungavarapu",
+    "kicker": "Forward Deployed Engineer × Applied AI",
+    "role": "I build AI agents where the problem lives, side by side with the people who have it. Then I ship.",
+    "location": "Santa Clara, California",
+    "status": "Incoming AI Builder at Salesforce · New York, Jan 2027",
+    "manifesto": "I spent two years helping keep a *credit-card platform* online for *20 million people* in 30+ countries. Now I build *AI agents* and ship them *fast.*",
+    "about": "I like building things that have a person on the other end.\n\nMy first job was on HSBC's credit-card platform in Pune, where reliability was the whole job. It taught me to care about the unglamorous parts: uptime, incident response and getting the details right.\n\nI moved to California for my master's at Santa Clara and found hackathons. A weekend, a team and something that has to work on stage is still my favorite way to learn a new tool. Seven wins later, I haven't stopped.\n\nThe same pull took me to the Miller Center, where I designed a learning app for schools in India.\n\nAway from the keyboard I mentor early-career engineers, read, and cook. When I can get outside I'm hiking, exploring somewhere new or playing sports.\n\nI ask why before I build, and I'd rather tell you exactly what I did than oversell it.",
+    "contactLine": "The fastest way to reach me is email or LinkedIn. My code is on GitHub."
+  },
+  "facts": [
+    {
+      "label": "Based in",
+      "value": "Santa Clara, California"
+    },
+    {
+      "label": "Next stop",
+      "value": "New York, January 2027"
+    },
+    {
+      "label": "Path so far",
+      "value": "Vellore → Pune → Santa Clara"
+    },
+    {
+      "label": "How I work",
+      "value": "Understand the why first, then ship fast"
+    },
+    {
+      "label": "Off the clock",
+      "value": "Mentoring early-career engineers, reading, hiking, cooking, sports"
+    }
+  ],
+  "stats": [
+    {
+      "value": "250K",
+      "label": "Card activations in Q1 for a feature I helped lead"
+    },
+    {
+      "value": "99.98%",
+      "label": "Uptime on the platform I worked on"
+    },
+    {
+      "value": "40%",
+      "label": "Faster than SLA on critical incidents"
+    },
+    {
+      "value": "70+",
+      "label": "Public repos on GitHub"
+    },
+    {
+      "value": "420",
+      "label": "Organic installs of my Chrome extension"
+    },
+    {
+      "value": "3.89",
+      "label": "MS GPA at Santa Clara"
+    }
+  ],
+  "experience": [
+    {
+      "role": "AI Builder, FDE",
+      "company": "Salesforce",
+      "place": "New York, NY",
+      "dates": "Starts Jan 2027",
+      "note": "Joining through Futureforce, Salesforce's emerging-talent program.",
+      "bullets": [],
+      "stack": []
+    },
+    {
+      "role": "Software Developer",
+      "company": "Johnson & Johnson",
+      "place": "Contract via Brillius Technologies",
+      "dates": "Oct 2026 – Present",
+      "note": "",
+      "bullets": [
+        "Part of the team rebuilding a legacy quality-management system for medical-device operations as a modern web app, from scratch.",
+        "Mostly backend, working across the full stack: async FastAPI services on PostgreSQL behind a React and TypeScript front end.",
+        "Work on the regulated-workflow core: multi-stage, role-based approval routing, 21 CFR Part 11-style e-signatures, segregation of duties and a field-level audit trail.",
+        "The codebase is tested at three levels (pytest, Vitest, Playwright) and ships through Jenkins, Docker, Helm and Terraform."
+      ],
+      "stack": [
+        "FastAPI",
+        "SQLAlchemy",
+        "PostgreSQL",
+        "React",
+        "TypeScript",
+        "Docker"
+      ]
+    },
+    {
+      "role": "AI Engineer Trainee, Platform Engineering",
+      "company": "Vieaura",
+      "place": "Part-time",
+      "dates": "Sep 2026 – Present",
+      "note": "",
+      "bullets": [
+        "Own the normalization stage of an AI pipeline that turns customer Excel bid sheets, each laid out differently, into one standard workbook for a product-matching agent built by teammates.",
+        "Designed it deterministic-first: rules extract what they can and an LLM handles only the ambiguous fields. In offline planning runs on two representative bid formats, that cut planned LLM calls by roughly 50 to 62%.",
+        "Ported the normalizer from Node.js to Python so it runs in the same pipeline as the matcher. 19 of 19 offline acceptance tests pass.",
+        "Added coverage accounting and source-cell evidence so skipped rows get caught and uncertain results go to a human reviewer."
+      ],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Node.js",
+        "React",
+        "OpenAI",
+        "Gemini"
+      ]
+    },
+    {
+      "role": "Web Design & Computer Engineering Intern",
+      "company": "Miller Center for Global Impact",
+      "place": "Santa Clara University · placed with Ignis Careers, Hyderabad",
+      "dates": "Summer 2026",
+      "note": "",
+      "bullets": [
+        "Designed an offline-first, Android-first self-learning app for a social enterprise that teaches English and life skills to about 364K students across 1,542 schools.",
+        "Ran the cost and accuracy analysis that settled the speech stack: on-device Whisper-base came out about 50× cheaper than cloud APIs and more accurate on Indian-accented English (13.6% word error rate against 20.9% and 30.0%).",
+        "Delivered 7 design documents (49 pages) and 4 clickable prototypes covering about 60 screens. The engagement covered design and architecture; the engineering build was out of scope.",
+        "Came back in October 2026 as an AI Mentor at the Miller Center's AI Build Studio, helping social-enterprise founders scope and debug AI prototypes."
+      ],
+      "stack": [
+        "Flutter",
+        "Whisper",
+        "Offline-first",
+        "Product scoping"
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "HSBC",
+      "place": "Pune, India",
+      "dates": "Aug 2022 – Aug 2024",
+      "note": "",
+      "bullets": [
+        "Backend engineer on the global credit-card platform: 20M+ users, 30+ countries, 99.98% uptime.",
+        "Helped lead India's first mobile card-activation feature, which reached 250K activations in Q1.",
+        "Automated 90% of a manual data-conversion process, saving 15+ engineer-hours per release.",
+        "Resolved critical incidents 40% faster than the SLA."
+      ],
+      "stack": [
+        "Backend",
+        "Payments",
+        "Incident response",
+        "SQL"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Dog",
+      "kind": "Hackathon · team build",
+      "blurb": "Incident-investigation copilot. Six agents take a production incident from summary to ranked hypotheses to a test plan. I owned the integration layer (Datadog telemetry, TestSprite, Toto forecasting), the demo service that generates live traffic, and the sponsor wiring.",
+      "award": "1st place, Best Use of TestSprite · AWS × Anthropic × Datadog GenAI Hackathon",
+      "stack": [
+        "FastAPI",
+        "Next.js",
+        "AgentCore",
+        "Datadog"
+      ],
+      "link": ""
+    },
+    {
+      "name": "VoiceCoach",
+      "kind": "Hackathon",
+      "blurb": "AI interview coach that listens to your answer and adapts the next question. Orchestrates five APIs and keeps session memory in a Neo4j graph.",
+      "award": "3rd prize, Neo4j track + Honorary Mention, Reka AI · Autonomous Agents Hackathon SF",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "Neo4j"
+      ],
+      "link": "https://github.com/Suhaas15/VoiceCoach"
+    },
+    {
+      "name": "VaultMind",
+      "kind": "AI safety",
+      "blurb": "Medical records platform that pairs Claude 3.5 Sonnet with a Skyflow vault for zero-trust handling of patient data. Runs over 1,000+ records.",
+      "award": "",
+      "stack": [
+        "React",
+        "FastAPI",
+        "Skyflow",
+        "Claude"
+      ],
+      "link": ""
+    },
+    {
+      "name": "Clarify",
+      "kind": "Chrome extension",
+      "blurb": "LLM-powered Chrome extension with 420 organic installs across the US, Germany and Japan.",
+      "award": "",
+      "stack": [
+        "Manifest V3",
+        "Vanilla JS",
+        "Cloudflare Workers",
+        "OpenRouter"
+      ],
+      "link": ""
+    },
+    {
+      "name": "Silent Signal",
+      "kind": "Hackathon · team build",
+      "blurb": "Agentic pipeline that screens messages for signs of abuse and escalates over SMS. A team project; we brought response latency down from 5s to 1.8s.",
+      "award": "",
+      "stack": [
+        "NVIDIA NIM",
+        "FastAPI",
+        "Twilio"
+      ],
+      "link": ""
+    },
+    {
+      "name": "TwinMind Live Suggestions",
+      "kind": "Take-home build",
+      "blurb": "Real-time meeting copilot: live transcription in 30-second chunks, a five-type suggestion engine and streaming chat. Built as a take-home for TwinMind and deployed.",
+      "award": "",
+      "stack": [
+        "Next.js 15",
+        "TypeScript",
+        "Groq",
+        "Whisper"
+      ],
+      "link": "https://twinmind-live-suggestions-jet.vercel.app"
+    }
+  ],
+  "winsCount": "7",
+  "wins": [
+    {
+      "title": "1st place, Best Use of TestSprite",
+      "event": "AWS × Anthropic × Datadog GenAI Hackathon",
+      "project": "AI-Dog"
+    },
+    {
+      "title": "3rd prize, Neo4j track",
+      "event": "Autonomous Agents Hackathon, San Francisco",
+      "project": "VoiceCoach"
+    },
+    {
+      "title": "Honorary Mention, Reka AI",
+      "event": "Autonomous Agents Hackathon, San Francisco",
+      "project": "VoiceCoach"
+    }
+  ],
+  "education": [
+    {
+      "school": "Santa Clara University",
+      "degree": "MS, Computer Science and Engineering",
+      "dates": "Sep 2024 – Jun 2026",
+      "detail": "GPA 3.89. Algorithms, Advanced Operating Systems, Machine Learning, Networks, Cloud Architecture, and two terms of directed research in Computing for Social Impact."
+    },
+    {
+      "school": "Vellore Institute of Technology",
+      "degree": "B.Tech, Computer Science and Engineering",
+      "dates": "Jul 2018 – May 2022",
+      "detail": ""
+    }
+  ],
+  "credentials": [
+    {
+      "title": "Black and White Image Colorization using Deep Learning",
+      "detail": "Published paper · GMSARN International Journal, accepted Nov 2023"
+    },
+    {
+      "title": "Agentblazer Champion 2026",
+      "detail": "Salesforce Trailhead"
+    }
+  ],
+  "skills": [
+    {
+      "group": "Languages",
+      "items": [
+        "Python",
+        "TypeScript",
+        "JavaScript",
+        "SQL",
+        "C/C++"
+      ]
+    },
+    {
+      "group": "AI",
+      "items": [
+        "Agent pipelines",
+        "LLM APIs",
+        "MCP",
+        "Speech (Whisper)",
+        "Graph memory (Neo4j)"
+      ]
+    },
+    {
+      "group": "Backend",
+      "items": [
+        "FastAPI",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "SQLite",
+        "Cloudflare Workers"
+      ]
+    },
+    {
+      "group": "Frontend",
+      "items": [
+        "React",
+        "Next.js",
+        "Flutter",
+        "Chrome extensions"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "label": "Email",
+      "url": "ssuhaasusa@gmail.com"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/suhaas-srungavarapu/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/Suhaas15"
+    },
+    {
+      "label": "Devpost",
+      "url": "https://devpost.com/ssuhaas"
+    }
+  ]
+}
